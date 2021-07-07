@@ -4,7 +4,13 @@
   padding: 0;
   background: #0F0D35;
 }
-
+@media screen and (max-width:800px)
+{
+  .datos
+  {
+    margin-left:50px;
+  }
+}
 /*Nav bar*/
 .hidden
 {
@@ -300,6 +306,8 @@ nav a:hover
   {
     width:300px;
     height:300px;
+    margin-top:68px;
+    margin-left:90px;
   }
   #TM span
   {
