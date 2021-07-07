@@ -176,7 +176,8 @@ nav a:hover
   .izq
   {
     background: rgba(0, 0, 0, 0.8);
-    width:250px;
+    width:60px;
+    height:150vh;
   }
 
   .izq .items
@@ -293,7 +294,22 @@ nav a:hover
     text-align: center;
     font-size: 15px;
   }
-  /*Fin de mundi girando*/
+@media screen and (max-width:800px)
+{
+  .mundo
+  {
+    width:300px;
+    height:300px;
+  }
+  #TM span
+  {
+    height:330px;
+    width:390px;
+    margin-left:-195px;
+  }
+  
+}
+  /*Fin de mundo girando*/
 /*Fin de datos*/
 
 /*Seccion 2*/
@@ -477,7 +493,7 @@ nav a:hover
 {
   #about
   {
-    margin-bottom: 200px;
+    margin-bottom: 600px;
   }
 }
 /*Fin Estudios*/
@@ -674,6 +690,10 @@ nav a:hover
 .correcto
 {
   visibility: hidden;
+}
+@media screen and (max-width:800px)
+{
+  margin-left:120px;
 }
 /*Fin Seccion 4*/
 
