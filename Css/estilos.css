@@ -4,13 +4,7 @@
   padding: 0;
   background: #0F0D35;
 }
-@media screen and (max-width:800px)
-{
-  .datos
-  {
-    margin-left:50px;
-  }
-}
+
 /*Nav bar*/
 .hidden
 {
@@ -176,25 +170,50 @@ nav a:hover
   width:90px;
   padding: 10px;
 }
-
+.izq_bottom
+{
+  visibility: hidden;
+  background: rgba(52, 73, 94,0.5);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  width: 100%;
+}
+.izq_bottom > *
+{
+  flex: 1 100%;
+}
+.redes
+{
+  display: flex;
+  justify-content: center;
+}
+.izq_bottom #title_contenedor
+{
+  text-align: center;
+  font-family:'DM Serif Display', serif;
+  text-transform: uppercase;
+}
+.redes i
+{
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+.redes i:hover
+{
+  background: rgba(52, 73, 94,0.6); 
+}
 @media screen and (max-width:800px)
 {
   .izq
   {
-    background: rgba(0, 0, 0, 0.8);
-    width:60px;
-    height:150vh;
+    visibility: hidden;
   }
-
-  .izq .items
+  .izq_bottom
   {
-    margin: 0px;
-    padding:0px;
-    margin-left: -30px;
-  }
-  .izq .items .fab
-  {
-    padding: 20px;
+    visibility: visible;
   }
 }
 
@@ -304,16 +323,16 @@ nav a:hover
 {
   .mundo
   {
-    width:300px;
-    height:300px;
-    margin-top:68px;
-    margin-left:90px;
+      width:300px;
+      height:270px;
+      margin-top:68px;
+      margin-left:90px;
   }
   #TM span
   {
-    height:330px;
-    width:390px;
-    margin-left:-195px;
+      height:320px;
+      width:400px;
+      margin-left:-195px;
   }
   
 }
@@ -501,7 +520,7 @@ nav a:hover
 {
   #about
   {
-    margin-bottom: 600px;
+    margin-bottom: 800px;
   }
 }
 /*Fin Estudios*/
@@ -601,7 +620,6 @@ nav a:hover
 }
 .contacto
 {
-  position: absolute;
   background: rgba(0,0,0,0.5);
   width: 400px;
   padding: 40px;
