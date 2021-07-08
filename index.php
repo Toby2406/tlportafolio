@@ -28,7 +28,7 @@
 </script>
 <?php
   session_start();
-
+  error_reporting(0);
  ?>
 <body id="index">
 <div class="nav_bar">
