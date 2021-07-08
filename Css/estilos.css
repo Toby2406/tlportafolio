@@ -178,7 +178,7 @@ nav a:hover
   flex-flow: row wrap;
   padding: 50px;
   color: #fff;
-  width: 100%;
+  width: 100vh;
 }
 .izq_bottom > *
 {
@@ -326,7 +326,7 @@ nav a:hover
       width:300px;
       height:270px;
       margin-top:68px;
-      margin-left:90px;
+      margin-left:10px;
   }
   #TM span
   {
