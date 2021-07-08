@@ -719,7 +719,10 @@ nav a:hover
 }
 @media screen and (max-width:800px)
 {
-  margin-left:120px;
+  #contact
+  {
+    margin-left:80px;
+  }
 }
 /*Fin Seccion 4*/
 
