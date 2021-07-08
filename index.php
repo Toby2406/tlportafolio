@@ -194,8 +194,16 @@
         </div>
       </section>
       <!--fin Seccin 3-->
-
   </header>
+  <footer class="izq_bottom">
+    <div class="contenedor">
+      <h2 id="title_contenedor">Contacta conmigo</h2>
+    </div>
+    <div class="redes">
+      <a><i class="fab fa-facebook-f"></i></a>
+      <a><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
   <?php
     require_once("php/admin.php");
     $c  = new Admin;
