@@ -330,9 +330,10 @@ nav a:hover
   }
   #TM span
   {
-      height:320px;
-      width:400px;
-      margin-left:-195px;
+      height:340px;
+      width:360px;
+      margin-top:-40px;
+      margin-left:-180px;
   }
   
 }
